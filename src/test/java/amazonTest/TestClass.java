@@ -47,5 +47,6 @@ public void closeApp() {
 @AfterClass
 public void closeBrowser() {
 	Reporter.log("i am closing browser", true);
+	Reporter.log("i am yes", true);
 }
 }
